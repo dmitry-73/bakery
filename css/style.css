@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+
+.center {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+/*  header  */
+
+.page-header {
+	min-height: 900px;	
+	
+	background-color: #9e9c93;	
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;	
+}
+
+.page-header__nav-line {
+	min-height: 70px;	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+	
+	background-color: rgba(86, 83, 76, 0.53);
+}
+
+.page-header__header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-header__logo {	
+	margin-left: 25px;
+	margin-bottom: 15px;
+	
+	font-family: "Scriptina", sans-serif;
+	font-size: 30px;	
+	color: #fff;
+	text-decoration: none;
+}
+
+.page-header__nav-items {
+	margin: 0;
+	padding: 0;	
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-around;	
+	flex-wrap: wrap;
+		
+	list-style: none;
+}
+
+.page-header__nav-items li {
+	margin-right: 85px;	
+}
+
+.page-header__nav-item {
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.page-header__social-items {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-header__social-items li{
+	margin-right: 25px;
+	
+	list-style: none;
+}
+
+.page-header__social-items li:last-of-type {
+	margin-right: 0;
+}
+
+.page-header__header-bottom {
+	padding-top: 230px;
+	width: 770px;
+	
+	text-align: center;	
+}
+
+.page-header__main-title {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 165px;
+	
+	font-family: "Playfair Display", sans-serif;
+	font-weight: bold;
+	font-size: 92px;
+	line-height: 24px;
+	color: #fff;
+	letter-spacing: 5px;
+	text-align: center;
+	
+	background-image: url(../images/block1_dashed%20line.png);
+	background-repeat: no-repeat;
+	background-position: center 120px;
+}
+
+.page-header__header-slogan {
+	margin: 0;
+	padding: 0 80px;
+	margin-bottom: 60px;
+	
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #fff;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.page-header__ourMenu-btn {
+	padding: 15px 50px;	
+	display: inline-block;	
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	
+	background-color: rgba(86, 83, 76, 0.53);
+	border: 1px dashed #9e9c93;
+}
