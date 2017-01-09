@@ -189,11 +189,13 @@
 	border: 1px dashed #9e9c93;
 }
 
+.page-header__ourMenu-btn:hover {
+	background-color: rgba(86, 83, 76, 0.8);
+}
+
 							/*  main  */
 
-.page-main {
-	min-height: 760px;
-		
+.page-main {		
 	background-image: url(../images/block_2_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center 10px;
@@ -201,7 +203,7 @@
 }
 
 .page-main__products-cakes {
-	padding-top: 105px;	
+	padding: 110px 0;	
 	display: flex;
 	justify-content: space-between;	
 	flex-wrap: wrap;	
@@ -209,11 +211,14 @@
 
 .page-main__about-cakes {
 	max-width: 630px;
+	
+	text-align: center;
 }
 
 .page-main__cakes-title {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 13px;
 	
 	font-family: "Alegreya", sans-serif;
 	font-size: 48px;
@@ -225,6 +230,7 @@
 .page-main__sub-title {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 52px;
 	
 	font-family: "Alegreya", sans-serif;
 	font-size: 14px;
@@ -236,8 +242,9 @@
 }
 
 .page-main__cakes-description {
-	padding: 0;
+	padding: 0 60px;
 	margin: 0;
+	margin-bottom: 35px;
 	
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 14px;
@@ -247,9 +254,112 @@
 	letter-spacing: 1px;
 }
 
+.page-main__job-name {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 60px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #56534c;
+}
+
+.page-main__worker-name {
+	position: relative;
+	margin-bottom: 45px;
+	
+	font-size: 0;
+}
+
+.page-main__name,
+.page-main__surname {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 110px;
+	height: 60px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #56534c;	
+	
+	border: 1px solid #d7d5ca;
+	border-left: none;
+	border-right: none;
+}
+
+.page-main__name {
+	margin-right: 150px;
+}
+
+.page-main__cook-ava {
+	display: inline-block;
+	width: 105px;
+	height: 105px;
+	position: absolute;
+	top: -22.5px;
+	left: 262.5px;
+	
+	background-image: url(../images/ava_cook1.png);
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+.page-main__wish {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	width: 415px;
+	height: 100px;
+	padding: 0 30px;
+	margin: 0 auto;
+	position: relative;
+	
+	font-family: "Scriptina", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #a47d5e;
+}
+
+.page-main__wish::before,
+.page-main__wish::after {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 14px;
+	position: absolute;
+	
+	background-repeat: no-repeat;	
+	background-position: top center;
+}
+
+.page-main__wish::before {	
+	left: 0;
+	top: 0;
+	
+	background-image: url(../images/quotes_start.png);	
+}
+
+.page-main__wish::after {
+	right: 0;
+	bottom: 0;
+	
+	background-image: url(../images/quotes_end.png);
+}
+
 .page-main__product-items {
 	position: relative;
 	max-width: 630px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .page-main__quality-tastes {
@@ -274,7 +384,7 @@
 }
 
 .page-main__product-item {
-	outline: 5px solid white;
+	outline: 5px solid #fff;
 	outline-offset: -11px;	
 	margin: 10px;
 }
