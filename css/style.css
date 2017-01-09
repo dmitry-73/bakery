@@ -10,12 +10,12 @@
 							/*  header  */
 
 		/* header-top */
-.page-header {	
+.page-header {		
 	background-color: #9e9c93;	
 	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: cover;	
+	background-size: cover;		
 }
 
 .page-header__shadow {
@@ -121,8 +121,23 @@
 .page-header__header-bottom {
 	padding-top: 230px;
 	width: 770px;
+	position: relative;
 	
 	text-align: center;	
+}
+
+.page-header__header-bottom::after {
+	content: "";
+	display: block;
+	width: 106px;
+	height: 106px;
+	position: absolute;
+	bottom: -57px;
+	left: 332px;	
+	
+	background-image: url(../images/bread-on-long-border.png);
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 
 .page-header__main-title {
@@ -173,3 +188,103 @@
 	background-color: rgba(86, 83, 76, 0.53);
 	border: 1px dashed #9e9c93;
 }
+
+							/*  main  */
+
+.page-main {
+	min-height: 760px;
+		
+	background-image: url(../images/block_2_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 10px;
+	background-size: cover;
+}
+
+.page-main__products-cakes {
+	padding-top: 105px;	
+	display: flex;
+	justify-content: space-between;	
+	flex-wrap: wrap;	
+}
+
+.page-main__about-cakes {
+	max-width: 630px;
+}
+
+.page-main__cakes-title {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #56534c;
+}
+
+.page-main__sub-title {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #a47d5e;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.page-main__cakes-description {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #56534c;
+	letter-spacing: 1px;
+}
+
+.page-main__product-items {
+	position: relative;
+	max-width: 630px;
+}
+
+.page-main__quality-tastes {
+	width: 279px;
+	height: 279px;
+	position: absolute;
+	top: 145.5px;
+	left: 170.5px;
+	padding: 90px 50px;
+
+	font-family: "Alegreya", sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #c9b176;
+	text-align: center;
+	text-transform: uppercase;
+		
+	background-image: url(../images/block-2_tasted-so-good.png);
+	background-repeat: no-repeat;
+	opacity: 0.97;
+}
+
+.page-main__product-item {
+	outline: 5px solid white;
+	outline-offset: -11px;	
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
