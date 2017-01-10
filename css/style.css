@@ -406,12 +406,8 @@
 .page-main__about-pancakes {
 	width: 970px;
 	height: 513px;
-	display: flex;
+	display: flex;	
 	
-	
-	background-image: url(../images/block_3_windmill.png);
-	background-repeat: no-repeat;
-	background-position: right bottom;
 	box-shadow: 0 25px 54px rgba(105, 80, 58, 0.45);
 }
 
@@ -484,6 +480,9 @@
 	position: relative;
 	
 	background-color: #fff;
+	background-image: url(../images/block_3_windmill.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
 .page-main__pancakes-title {
@@ -515,7 +514,8 @@
 
 .page-main__pancakes-description {
 	padding: 0;
-	margin: 0;	
+	margin: 0;
+	margin-bottom: 100px;
 	
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 14px;
@@ -574,6 +574,16 @@
 	line-height: 30px;
 	color: #979285;
 	letter-spacing: 2px;
+}
+
+.page-main__slick-slider {
+	width: 340px;
+	height: 105px;
+	margin: 0 auto;	
+}
+
+.page-main__slick-slider div:focus {
+	outline: none;
 }
 
 
