@@ -195,7 +195,9 @@
 
 							/*  main  */
 
-.page-main {		
+		/* products-cake */
+
+.page-main__cakes-wrap {
 	background-image: url(../images/block_2_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center 10px;
@@ -387,6 +389,191 @@
 	outline: 5px solid #fff;
 	outline-offset: -11px;	
 	margin: 10px;
+}
+
+		/* product-pancakes */
+
+.page-main__products-pancakes {
+	min-height: 760px;
+	padding: 140px 0 107px 0;
+	
+	background-image: url(../images/block_3_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.page-main__about-pancakes {
+	width: 970px;
+	height: 513px;
+	display: flex;
+	
+	
+	background-image: url(../images/block_3_windmill.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	box-shadow: 0 25px 54px rgba(105, 80, 58, 0.45);
+}
+
+.page-main__imagePancakes-wrap {
+	width: 420px;
+	height: 513px;	
+	position: relative;	
+	
+	background-color: #fff;
+}
+
+.page-main__circle {
+	display: block;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	right: -24px;
+	top: 232px;
+	z-index: 1;
+			
+	background-color: #fff;
+	border-radius: 50%;
+	color: #d8bba3;	
+}
+
+.page-main__burger {
+	display: block;
+	width: 1px;
+	height: 16px;
+	position: absolute;
+	top: 16px;
+	left: 23px;
+	
+	background-color: #d8bba3;
+}
+
+.page-main__burger::before,
+.page-main__burger::after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 16px;
+	position: absolute;
+	top: 0px;
+		
+	background-color: #d8bba3;
+}
+
+.page-main__burger::before {
+	left: 3px;
+}
+
+.page-main__burger::after {
+	right: 3px;
+}
+
+.page-main__five-stars {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20px;
+	height: 145px;
+	position: absolute;
+	top: 187px;
+	left: 30px;
+}
+
+.page-main__pancakes-inner {
+	padding: 85px 71px 40px 60px;
+	position: relative;
+	
+	background-color: #fff;
+}
+
+.page-main__pancakes-title {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 13px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #56534c;
+	letter-spacing: 2px;
+}
+
+.page-main__pancakes-subTitle {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 55px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #a47d5e;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.page-main__pancakes-description {
+	padding: 0;
+	margin: 0;	
+	
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #56534c;
+	letter-spacing: 1px;
+}
+
+.page-main__time-status {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	right: -105px;
+	top: -43px;
+	
+	background-image: url(../images/block_3_onMinutes.png);
+	background-repeat: no-repeat;
+	box-shadow: 0 5px 60px 15px rgba(0, 1, 1, 0.2);
+}
+
+.page-main__time-title {
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 38px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #a47d5e;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.page-main__time-number {
+	display: block;
+	margin-bottom: 26px;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 92px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #dfc691;
+	letter-spacing: 7px;
+}
+
+.page-main__time-name {
+	font-family: "Alegreya", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #979285;
+	letter-spacing: 2px;
 }
 
 
