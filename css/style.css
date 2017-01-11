@@ -393,8 +393,7 @@
 
 		/* product-pancakes */
 
-.page-main__products-pancakes {
-	min-height: 760px;
+.page-main__products-pancakes {	
 	padding: 140px 0 107px 0;
 	
 	background-image: url(../images/block_3_bg.jpg);
@@ -587,12 +586,142 @@
 }
 
 
+		/* products-breakfast */
 
+.page-main__products-breakfast {
+	min-height: 760px;
+	
+	background-image: url(../images/block_4_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
 
+.page-main__breacfast-wrap {
+	display: flex; 
+	justify-content: space-between;
+}
 
+.page-main__breakfast-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.page-main__breakfast-title {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #fff;
+	letter-spacing: 3px;
+}
 
+.page-main__breakfast-sub {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #c8a593;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 
+.page-main__breakfast-options {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;	
+	text-align: center;
+}
+
+.page-main__option-title {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+.page-main__option-sub {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #c2beba;
+	letter-spacing: 0.8px;
+}
+
+.page-main__option-price {
+	font-family: "Alegreya", sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #dfc691;
+	letter-spacing: 2px;
+}
+
+.page-main__history-date {
+	width: 240px;	
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-main__dete-item {
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #56534c;
+	text-transform: uppercase;	
+}
+
+.page-main__history-title {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Alegreya", sans-serif;
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 60px;
+	color: #56534c;		
+}
+
+.page-main__history-description {
+	padding: 0;
+	margin: 0;
+	
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #56534c;
+	letter-spacing: 1px;
+}
+
+.page-main__history-readMore {
+	font-family: "Alegreya", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;		
+	color: #a47d5e;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 
 
 
