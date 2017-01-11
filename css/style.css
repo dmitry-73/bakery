@@ -589,28 +589,34 @@
 		/* products-breakfast */
 
 .page-main__products-breakfast {
-	min-height: 760px;
-	
-	background-image: url(../images/block_4_bg.jpg);
+	height: 760px;
+		
+	background-image: url(../images/block_4_bg2.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 }
 
 .page-main__breacfast-wrap {
+	padding: 100px 0 34px 200px;
+	
 	display: flex; 
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .page-main__breakfast-description {
+	max-width: 630px;
+	
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center;	
 }
 
 .page-main__breakfast-title {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 15px;
 	
 	font-family: "Alegreya", sans-serif;
 	font-size: 60px;
@@ -623,6 +629,7 @@
 .page-main__breakfast-sub {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 50px;
 	
 	font-family: "Alegreya", sans-serif;
 	font-size: 18px;
@@ -641,9 +648,14 @@
 	text-align: center;
 }
 
+.page-main__breakfast-option {
+	padding-bottom: 50px;
+}
+
 .page-main__option-title {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 8px;
 	
 	font-family: "Alegreya", sans-serif;
 	font-size: 30px;
@@ -656,6 +668,7 @@
 .page-main__option-sub {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 18px;
 	
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 16px;
@@ -665,13 +678,36 @@
 	letter-spacing: 0.8px;
 }
 
-.page-main__option-price {
+.page-main__option-price {	
+	display: inline-block;
+	position: relative;
+	
 	font-family: "Alegreya", sans-serif;
 	font-size: 36px;
 	font-weight: normal;
 	line-height: 30px;
 	color: #dfc691;
 	letter-spacing: 2px;
+}
+
+.page-main__option-price::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 48px;
+	width: 90px;
+	height: 27px;
+	background-image: url(../images/block_4_wheat.png);
+	background-repeat: no-repeat;	
+}
+
+.page-main__breakfast-option:last-of-type .page-main__option-price::after {
+	display: none;
+}
+
+.page-main__history {
+	max-width: 630px;
 }
 
 .page-main__history-date {
@@ -722,6 +758,9 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
+
+
+
 
 
 
