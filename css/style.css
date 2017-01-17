@@ -1,3 +1,30 @@
+@font-face {
+	    font-family: "Alegreya"; 
+	    src: local("Alegreya"), 
+		url(../fonts/Alegreya-Regular.ttf);		 		
+}
+
+@font-face {
+	    font-family: "Playfair Display"; 
+	    src: local("Playfair Display"), 
+		url(../fonts/PlayfairDisplay-Regular.ttf);		 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+@font-face {
+	    font-family: "Proxima Nova"; 
+	    src: local("Proxima Nova Rg"), 
+			url(../fonts/ProximaNova-Regular.woff),
+			url(../fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+	    font-family: "Scriptina"; 
+	    src: local("Scriptina"), 
+		url(../fonts/SCRIPTIN.ttf);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -39,6 +66,12 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	.page-header__header-top {
+		margin-top: 10px;
+	}  
 }
 
 .page-header__logo {	
@@ -329,6 +362,12 @@
 	color: #a47d5e;
 }
 
+@-moz-document url-prefix() {
+	.page-main__wish {
+		letter-spacing: 1.5px;
+	}
+} 
+
 .page-main__wish::before,
 .page-main__wish::after {
 	content: "";
@@ -482,6 +521,12 @@
 	background-image: url(../images/block_3_windmill.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	.page-main__pancakes-inner {
+		width: 550px;
+	}
 }
 
 .page-main__pancakes-title {
@@ -698,6 +743,10 @@
 	height: 27px;
 	background-image: url(../images/block_4_wheat.png);
 	background-repeat: no-repeat;	
+}
+
+.page-main__breakfast-option:first-of-type .page-main__option-price::after {
+	margin-left: 5px;
 }
 
 .page-main__breakfast-option:last-of-type .page-main__option-price::after {
@@ -1044,8 +1093,16 @@
 	border-right: none;
 }
 
+.page-footer__list-item:hover {
+	color: #000;
+}
+
+.page-footer__our-menu {
+	padding-left: 38px;
+}
+
 .page-footer__visit-us {
-	padding-right: 56px;
+	padding-right: 53px;
 }
 
 .page-footer__list-item::after {
@@ -1077,3 +1134,6 @@
 	text-decoration: none;
 }
 
+.page-footer__main-link:hover {
+	color: #000;
+}
